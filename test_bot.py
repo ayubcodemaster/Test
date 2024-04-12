@@ -7,8 +7,7 @@ token = ''
 API = ""
 
 bot = telebot.TeleBot(token)
-def hello():
-    pass
+
 @bot.message_handler(commands=['start'])
 def start(message):
     markup = types.InlineKeyboardMarkup()
