@@ -7,16 +7,12 @@ token = ''
 API = ""
 
 bot = telebot.TeleBot(token)
-print('Hello world!')
-print('Hello world!')
-print('Hello world!')
-print('Hello world!')
-print('Hello world!')
-print('Hello world!')
-print('Hello world!')
-print('Hello world!')
-print('Hello world!')
-print('Hello world!')
+print('Привет мир!')
+print('Привет мир!')
+print('Привет мир!')
+print('Привет мир!')
+print('Привет мир!')
+
 def ismoil_func():
     pass
 @bot.message_handler(commands=['start'])
